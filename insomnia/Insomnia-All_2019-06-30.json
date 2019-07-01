@@ -1,0 +1,992 @@
+{
+    "_type": "export",
+    "__export_format": 4,
+    "__export_date": "2019-06-30T22:46:32.305Z",
+    "__export_source": "insomnia.desktop.app:v6.5.4",
+    "resources": [
+        {
+            "_id": "req_0e027c9899684a8d806675212241a735",
+            "authentication": {},
+            "body": {},
+            "created": 1560159972352,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1560159972352,
+            "method": "GET",
+            "modified": 1560160076271,
+            "name": "GET ALL CHEESES",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://cheesebored.herokuapp.com/cheeses",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "created": 1557753538495,
+            "description": "",
+            "modified": 1557753538495,
+            "name": "Insomnia",
+            "parentId": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_0bfe718934864d26afc2f50a8040f18b",
+            "authentication": {},
+            "body": {},
+            "created": 1560160115187,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1560160115187,
+            "method": "POST",
+            "modified": 1560160647851,
+            "name": "GET ALL CHEESES",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://api.open-notify.org/astros.json",
+            "_type": "request"
+        },
+        {
+            "_id": "req_aea678c59c6d41fa8bd97cc105c31580",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Marmite cheese\",\n\t\"origin\": \"England\",\n\t\"image\": \"https://i.dailymail.co.uk/i/pix/2009/01/09/article-0-02FEEECE000005DC-810_468x322.jpg\",\n\t\"tasted\": \"It's amazing!\"\n}"
+            },
+            "created": 1560160867678,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_fec0a9e76bbd4900be2886d131cf8163",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "id": "pair_0d6586eef5d9415d847f1ab2ea7f7339",
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1Y2ZlMzJhYmY5YjY1ZjAwMTc2OTU2NmUiLCJpYXQiOjE1NjAxNjM0NzcsImV4cCI6MTU2MDE4NTA3N30.QVDu7ObW2VRfVhD6nOEtOTqMmMBK3WDHlKUMANMYHXM"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1560160867678,
+            "method": "POST",
+            "modified": 1560163589448,
+            "name": "MAKE A NEW CHEESES",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://cheesebored.herokuapp.com/cheeses",
+            "_type": "request"
+        },
+        {
+            "_id": "req_d3b46063ca24411dba8647afeeabbbc6",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"username\": \"gaetano\",\n  \"email\": \"gae.hayden@ga.co\",\n  \"password\": \"pass1\",\n  \"passwordConfirmation\": \"pass1\"\n}"
+            },
+            "created": 1560162095569,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_a06378601eeb4e4baba33df23d5ff84e",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "id": "pair_e953c1fe7cae482fa901af5d450a349e",
+                    "name": "Authorization",
+                    "value": "Bearer "
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1560163400091,
+            "method": "POST",
+            "modified": 1560163633004,
+            "name": "REGISTER A NEW USER",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": false,
+            "url": "http://cheesebored.herokuapp.com/register",
+            "_type": "request"
+        },
+        {
+            "_id": "req_2f16b3afca894545aa5f80de242e8062",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n  \"email\": \"gae.hayden@ga.co\",\n  \"password\": \"pass1\"\n}"
+            },
+            "created": 1560163400041,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_2ce14a9169d74afba0510f6550bb62bb",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1560163400041,
+            "method": "POST",
+            "modified": 1560163474278,
+            "name": "LOGIN A USER",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "http://cheesebored.herokuapp.com/login",
+            "_type": "request"
+        },
+        {
+            "_id": "req_4e10e03d958c44b1aef8ebf73447a590",
+            "authentication": {},
+            "body": {},
+            "created": 1560165399809,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1560165399809,
+            "method": "GET",
+            "modified": 1560166018150,
+            "name": "Fetch Insomnia Changelog",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "",
+            "_type": "request"
+        },
+        {
+            "_id": "req_92078acee480472eb110078a78279b87",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "created": 1560182653420,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_e40b8d27cb494515a4cceb953b0fcafe",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1560182653420,
+            "method": "GET",
+            "modified": 1560949352473,
+            "name": "FLAGS",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "7ed5b77c7emshed7e9fecd6c8608p1d9a7bjsnd6d23323d334",
+            "_type": "request"
+        },
+        {
+            "_id": "req_3f59c8535c3a4675af26c9715fa43b17",
+            "authentication": {},
+            "body": {},
+            "created": 1561023139152,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_5d08ad1adea24072a3016587518f19b6",
+                    "name": "X-RapidAPI-H",
+                    "value": "webcamstravel.p.rapidapi.com"
+                },
+                {
+                    "id": "pair_258968cc9cd44d1489601eb508caf754",
+                    "name": "X-RapidAPI-Key",
+                    "value": "bd09414a73mshc52dd19df206adbp1d60abjsna663140c50a0"
+                },
+                {
+                    "id": "pair_2313ce2f374b48d4b89f977b08c296c0",
+                    "name": "",
+                    "value": ""
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561023139153,
+            "method": "GET",
+            "modified": 1561023395519,
+            "name": "WEBCAMS NEARBY",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "https://webcamstravel.p.rapidapi.com/webcams/list/category=beach/country=IT/orderby=popularity,desc/limit=20",
+            "_type": "request"
+        },
+        {
+            "_id": "req_6ec60e9bdf604f3dae1af6dd952241b3",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "created": 1561369444361,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_f0ca6545c41a474f9e71084f59809f08",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561369444361,
+            "method": "GET",
+            "modified": 1561448524122,
+            "name": "NODE",
+            "parameters": [],
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4000/catsInAnimation",
+            "_type": "request"
+        },
+        {
+            "_id": "req_3ec4344860fb4edcbc7b5c5ffccd98b9",
+            "authentication": {},
+            "body": {},
+            "created": 1561458799179,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1561641804990,
+            "method": "GET",
+            "modified": 1561923848435,
+            "name": "INDEX DINOSAURS",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaurs/",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "created": 1561448586352,
+            "description": "",
+            "modified": 1561458740380,
+            "name": "Jurassic-Park",
+            "parentId": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_e41136b0f0764baabec2f1e6bd8b3c69",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Tyrannosa Rex 1\",\n\t\"period\" : \"Creatacious\",\n\t\"herbivore\": \"false\",\n\t\"dangerRating\":\"4\",\n\t\"image\" :\"https://i.ytimg.com/vi/JKPwtDjzJMI/maxresdefault.jpg\",\n\t\"description\":\"....\"\n}"
+            },
+            "created": 1561465750095,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE3ZjI0MDJlMGUyYTRhMzA5N2RhNDEiLCJpYXQiOjE1NjE5MjMyMTQsImV4cCI6MTU2MTk0NDgxNH0.JzpD7cOTnUZlTsgnIc6NiOWR2d68irwuqQjwevVy6zE"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561641804952.5,
+            "method": "POST",
+            "modified": 1561923255507,
+            "name": "CREATE DINOSAUR",
+            "parameters": [
+                {
+                    "id": "pair_a5f0f574147f4d1c9ec8d8915aafff69",
+                    "name": "",
+                    "value": ""
+                },
+                {
+                    "id": "pair_d54fd807de5e4b5eaf48a3ba8054eebc",
+                    "name": "",
+                    "value": ""
+                }
+            ],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaurs/",
+            "_type": "request"
+        },
+        {
+            "_id": "req_56ff988b149b411c9d91726aa4fd3b18",
+            "authentication": {},
+            "body": {},
+            "created": 1561466410923,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1561641804965,
+            "method": "GET",
+            "modified": 1561925421028,
+            "name": "SHOW DINOSAURUS",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaurs/5d14c0875e4d0b9e326fe5ec",
+            "_type": "request"
+        },
+        {
+            "_id": "req_172aa945cd7046749b389cb00fdba41e",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"T Rex\"\n}"
+            },
+            "created": 1561467623183,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE3ZjI0MDJlMGUyYTRhMzA5N2RhNDEiLCJpYXQiOjE1NjE5MjUzNzQsImV4cCI6MTU2MTk0Njk3NH0.CvRKyjm6qARvWVxHWlxf2tBnWNqGVXx9T26gQvRSIqY"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561467623184,
+            "method": "PUT",
+            "modified": 1561925389331,
+            "name": "EDIT DINOSAUR",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaurs/5d1215a077d48d4c1a3d1e4d",
+            "_type": "request"
+        },
+        {
+            "_id": "req_ca6e825344c64df68a4d6e566bc892f1",
+            "authentication": {},
+            "body": {},
+            "created": 1561468104960,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE3ZjI0MDJlMGUyYTRhMzA5N2RhNDEiLCJpYXQiOjE1NjE5MjMyMTQsImV4cCI6MTU2MTk0NDgxNH0.JzpD7cOTnUZlTsgnIc6NiOWR2d68irwuqQjwevVy6zE"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561468104960,
+            "method": "DELETE",
+            "modified": 1561924680020,
+            "name": "DELETE DINOSAUR",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaurs/5d191442b6647b5a1024cd78",
+            "_type": "request"
+        },
+        {
+            "_id": "req_888f8c7efde4416c874dff163096e65e",
+            "authentication": {},
+            "body": {},
+            "created": 1561469283023,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1561469283024,
+            "method": "GET",
+            "modified": 1561850402703,
+            "name": "404",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaursjkj,hkj",
+            "_type": "request"
+        },
+        {
+            "_id": "req_c8924ba12c4540ea8254f125816c13b8",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"username\": \"Jack3\",\n\t\"email\": \"jack3@email.com\",\n\t\"password\" :\"pass\",\n\t\"passwordConfirmation\": \"pass\"\n}"
+            },
+            "created": 1561540988417,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_b3a65f10e7e343d790f19b319cc37ef3",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561641805090,
+            "method": "POST",
+            "modified": 1561923181489,
+            "name": "REGISTER USER",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/register",
+            "_type": "request"
+        },
+        {
+            "_id": "req_393c08d633584e9da9c6b924c9408d43",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"email\": \"jack3@email.com\",\n\t\"password\": \"pass\"\n}"
+            },
+            "created": 1561551760893,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_ab1847faa15d416ebaf1e533de051dca",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561641805040,
+            "method": "POST",
+            "modified": 1561923177929,
+            "name": "LOGIN USER",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/login",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b88566ded23b4c1bba64a2b57f23fb10",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"text\" : \"This is the comment!\"\n}"
+            },
+            "created": 1561640233820,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE3ZjI0MDJlMGUyYTRhMzA5N2RhNDEiLCJpYXQiOjE1NjE5MjMyMTQsImV4cCI6MTU2MTk0NDgxNH0.JzpD7cOTnUZlTsgnIc6NiOWR2d68irwuqQjwevVy6zE"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561641804946.25,
+            "method": "POST",
+            "modified": 1561923304235,
+            "name": "COMMENT DINOSAUR",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaurs/5d14c0875e4d0b9e326fe5ec/comments",
+            "_type": "request"
+        },
+        {
+            "_id": "req_51aa7a02ae554d2990128cc3316ec197",
+            "authentication": {},
+            "body": {},
+            "created": 1561641804940,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE3ZjI0MDJlMGUyYTRhMzA5N2RhNDEiLCJpYXQiOjE1NjE5MjMyMTQsImV4cCI6MTU2MTk0NDgxNH0.JzpD7cOTnUZlTsgnIc6NiOWR2d68irwuqQjwevVy6zE"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561641804940,
+            "method": "DELETE",
+            "modified": 1561923341549,
+            "name": "COMMENT DELETE",
+            "parameters": [],
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4001/api/dinosaurs/5d14c0875e4d0b9e326fe5ec/comments/5d14c815b835439f738a1b51",
+            "_type": "request"
+        },
+        {
+            "_id": "req_5a625ee87ae0469fb6162e7a8799e987",
+            "authentication": {},
+            "body": {},
+            "created": 1561479221722,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1561650825951,
+            "method": "GET",
+            "modified": 1561929837468,
+            "name": "INDEX CAT",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4000/api/cats",
+            "_type": "request"
+        },
+        {
+            "_id": "wrk_706e05f3d716466699e23fea7166c02e",
+            "created": 1561479079292,
+            "description": "",
+            "modified": 1561479079292,
+            "name": "Cat in Animation API",
+            "parentId": null,
+            "_type": "workspace"
+        },
+        {
+            "_id": "req_eb4961ac583b49038dd853f62dd17693",
+            "authentication": {},
+            "body": {},
+            "created": 1561479353622,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1561650825963.5,
+            "method": "GET",
+            "modified": 1561933576110,
+            "name": "SHOW CATS",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:8000/api/cats/5d1927f0e652767215d67cdb",
+            "_type": "request"
+        },
+        {
+            "_id": "req_b5aec6b66d114303ab99930a8c8a6a4d",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"email\": \"jack@email\",\n\t\"password\" :\"pass\"\n}"
+            },
+            "created": 1561582448319,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_b46aeb2255f74e579c49f935aa2f1e20",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561650825976,
+            "method": "POST",
+            "modified": 1561934041713,
+            "name": "LOGIN USER",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:8000/api/login",
+            "_type": "request"
+        },
+        {
+            "_id": "req_67d571f7c4374a899cb8f1d25563f3e7",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"username\": \"Alberto\",\n\t\"email\": \"alberto@email.com\",\n\t\"password\" :\"pass\",\n\t\"passwordConfirmation\": \"pass\"\n}"
+            },
+            "created": 1561582489999,
+            "description": "",
+            "headers": [
+                {
+                    "id": "pair_583416f86ef74d66b1be805ee8df252f",
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561650826026,
+            "method": "POST",
+            "modified": 1561927172589,
+            "name": "REGISTER USER",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4000/api/register",
+            "_type": "request"
+        },
+        {
+            "_id": "req_5c3d7c6302ab4fdaa2cec44467f6f34f",
+            "authentication": {},
+            "body": {},
+            "created": 1561650542466,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1561650681005.5,
+            "method": "DELETE",
+            "modified": 1561927120032,
+            "name": "COMMENT DELETE",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "",
+            "_type": "request"
+        },
+        {
+            "_id": "req_1b81c356d8d341578b257c529bdd909f",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": ""
+            },
+            "created": 1561650571627,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561650710218,
+            "method": "POST",
+            "modified": 1561927115688,
+            "name": "COMMENT CAT",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "",
+            "_type": "request"
+        },
+        {
+            "_id": "req_a5be39fd10e94cdeace9e64cfb195b1c",
+            "authentication": {},
+            "body": {},
+            "created": 1561650651793,
+            "description": "",
+            "headers": [],
+            "isPrivate": false,
+            "metaSortKey": -1561650651793,
+            "method": "GET",
+            "modified": 1561650651793,
+            "name": "404",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "",
+            "_type": "request"
+        },
+        {
+            "_id": "req_4f70afdf16f94441b865262b7db81070",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"T Rex\"\n}"
+            },
+            "created": 1561650678806,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE5MjdmMGU2NTI3NjcyMTVkNjdjZDciLCJpYXQiOjE1NjE5MzA2NDUsImV4cCI6MTU2MTk1MjI0NX0.a0-hV3jBoFL7xfI7ML3n-hd5gNws-qjRor_wZqkeoWw"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561650725924,
+            "method": "PUT",
+            "modified": 1561931454457,
+            "name": "EDIT CAT",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4000/api/cats/5d192eb954586a79021c758b",
+            "_type": "request"
+        },
+        {
+            "_id": "req_82b1fb0fdf0c4a9eb501831f4cb1dfde",
+            "authentication": {},
+            "body": {},
+            "created": 1561650741630,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE5MjdmMGU2NTI3NjcyMTVkNjdjZDciLCJpYXQiOjE1NjE5MzA2NDUsImV4cCI6MTU2MTk1MjI0NX0.a0-hV3jBoFL7xfI7ML3n-hd5gNws-qjRor_wZqkeoWw"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561650741630,
+            "method": "DELETE",
+            "modified": 1561931395580,
+            "name": "DELETE CAT",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4000/api/cats/5d192e7854586a79021c7588",
+            "_type": "request"
+        },
+        {
+            "_id": "req_adea98c0be66422c8a00d349a83a5dcc",
+            "authentication": {},
+            "body": {
+                "mimeType": "application/json",
+                "text": "{\n\t\"name\": \"Tyrannosa Cat 2\",\n\t\"cartoon\" : \"Felix the Cat\",\n\t\"year\": \"1919\", \n\t\"image\": \"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Felix_the_cat.svg/1200px-Felix_the_cat.svg.png\",\n\t\"rating\": \"5\",\n  \"description\": \"Created in the silent film era. This is one cat that does not take life laying down, Felix the Cat is always up for a good laugh.\"\n}"
+            },
+            "created": 1561650825926,
+            "description": "",
+            "headers": [
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Authorization",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiI1ZDE5MjdmMGU2NTI3NjcyMTVkNjdjZDciLCJpYXQiOjE1NjE5MzA2NDUsImV4cCI6MTU2MTk1MjI0NX0.a0-hV3jBoFL7xfI7ML3n-hd5gNws-qjRor_wZqkeoWw"
+                }
+            ],
+            "isPrivate": false,
+            "metaSortKey": -1561650825926,
+            "method": "POST",
+            "modified": 1561931448391,
+            "name": "CREATE CAT",
+            "parameters": [],
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "settingDisableRenderRequestBody": false,
+            "settingEncodeUrl": true,
+            "settingRebuildPath": true,
+            "settingSendCookies": true,
+            "settingStoreCookies": true,
+            "url": "localhost:4000/api/cats/",
+            "_type": "request"
+        },
+        {
+            "_id": "env_135e4e5398017bba7f8e968d6d5ad18b17812c4e",
+            "color": null,
+            "created": 1557753538563,
+            "data": {
+                "base_url": "changelog.insomnia.rest"
+            },
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1557753538563,
+            "modified": 1560165823997,
+            "name": "Base Environment",
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_135e4e5398017bba7f8e968d6d5ad18b17812c4e",
+            "cookies": [
+                {
+                    "creation": "2019-06-10T11:17:10.952Z",
+                    "domain": "insomnia.rest",
+                    "expires": "2020-06-09T11:17:10.000Z",
+                    "hostOnly": false,
+                    "httpOnly": true,
+                    "id": "5148867761927352",
+                    "key": "__cfduid",
+                    "lastAccessed": "2019-06-10T11:17:10.952Z",
+                    "path": "/",
+                    "secure": true,
+                    "value": "d13e5663fa9db7d97bb3b0ab22df78cf21560165430"
+                },
+                {
+                    "creation": "2019-06-10T16:04:46.140Z",
+                    "domain": "restcountries.eu",
+                    "expires": "2020-06-09T16:04:45.000Z",
+                    "hostOnly": false,
+                    "httpOnly": true,
+                    "id": "31634588768380767",
+                    "key": "__cfduid",
+                    "lastAccessed": "2019-06-10T16:04:46.140Z",
+                    "path": "/",
+                    "value": "d0975955d361b0984591b86ea2b80605b1560182685"
+                },
+                {
+                    "creation": "2019-06-11T15:07:21.887Z",
+                    "domain": "tfl.gov.uk",
+                    "expires": "2020-06-10T15:07:21.000Z",
+                    "hostOnly": false,
+                    "httpOnly": true,
+                    "id": "7035852459621956",
+                    "key": "__cfduid",
+                    "lastAccessed": "2019-06-11T15:07:21.887Z",
+                    "path": "/",
+                    "value": "d996927bb4beeb6968c5f8e597d7440fc1560265641"
+                }
+            ],
+            "created": 1557753538568,
+            "modified": 1560265641891,
+            "name": "Default Jar",
+            "parentId": "wrk_af2d8cc60068400cbae726ee41c16daf",
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "env_2788772fcba5818c5877ead696dc15db01959a5b",
+            "color": null,
+            "created": 1561448586389,
+            "data": {},
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1561448586389,
+            "modified": 1561448586389,
+            "name": "Base Environment",
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_2788772fcba5818c5877ead696dc15db01959a5b",
+            "cookies": [],
+            "created": 1561448586395,
+            "modified": 1561448586395,
+            "name": "Default Jar",
+            "parentId": "wrk_7b6832369e4a4f01ae4705f1abe3541a",
+            "_type": "cookie_jar"
+        },
+        {
+            "_id": "env_215a99e634ef9583990d23291b0d31ff02731561",
+            "color": null,
+            "created": 1561479079926,
+            "data": {},
+            "dataPropertyOrder": null,
+            "isPrivate": false,
+            "metaSortKey": 1561479079926,
+            "modified": 1561479079926,
+            "name": "Base Environment",
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "_type": "environment"
+        },
+        {
+            "_id": "jar_215a99e634ef9583990d23291b0d31ff02731561",
+            "cookies": [],
+            "created": 1561479079944,
+            "modified": 1561479079944,
+            "name": "Default Jar",
+            "parentId": "wrk_706e05f3d716466699e23fea7166c02e",
+            "_type": "cookie_jar"
+        }
+    ]
+}
