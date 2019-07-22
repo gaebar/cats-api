@@ -26,7 +26,7 @@ mongoose.connect(dbURI, { useNewUrlParser: true, useCreateIndex: true }, (err, d
       console.log(`${users.length} users created`)
       return Cat.create([
         {
-          name: 'Felix',
+          name: 'Felix the Cat',
           friendly: true,
           cartoon: 'Felix the Cat',
           year: 1919,

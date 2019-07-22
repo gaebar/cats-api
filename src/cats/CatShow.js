@@ -85,6 +85,15 @@ class CatShow extends Component {
                 <h4 className="title is-4">Cartoon</h4>
                 <p>{cat.cartoon}</p>
                 <hr />
+                <h4 className="title is-4">Year</h4>
+                <p>{cat.year}</p>
+                <hr />
+                <hr />
+                <h4 className="title is-4">Rating</h4>
+                <p>{cat.rating}</p>
+                <hr />
+                <h4 className="title is-4">Added by</h4>
+                <p>{cat.users}</p>
                 {this.isCatOwner() && <Link
                   className="button is-warning"
                   to={`/cats/${cat._id}/edit`}

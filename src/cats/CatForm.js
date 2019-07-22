@@ -75,17 +75,20 @@ const CatForm = ({ data, handleChange, handleSubmit }) => (
       </div>
     </div>
     <div className="field">
-      <label className="label">Raiting</label>
+      <label className="label">Rating</label>
       <div className="control">
-        <textarea
-          className="textarea"
-          name="raiting"
-          placeholder="Raiting"
+        <input
+          className="range"
+          type="radio"
+          name="rating"
+          placeholder="Rating"
           onChange={handleChange}
-          value={data.description || ''}
+          value={data.radio || ''}
         />
       </div>
     </div>
+    
+
     <button type="submit" className="button is-info">Submit</button>
   </form>
 )
